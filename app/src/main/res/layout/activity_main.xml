@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#00FFC400"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/contact_image" />
+
+    <EditText
+        android:id="@+id/countries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:focusable="false"
+        android:hint="CountryCode"/>
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:focusableInTouchMode="true"
+        android:drawableLeft="@drawable/phone"
+        android:hint="Enter MobileNumber"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

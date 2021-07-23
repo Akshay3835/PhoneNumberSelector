@@ -1,0 +1,2 @@
+rootProject.name = "PhoneSelector Application"
+include ':app'

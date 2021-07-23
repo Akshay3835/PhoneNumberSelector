@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="countries_array">
+        <item>+91 India</item>
+        <item>+77 Dubai</item>
+        <item>+66 USA</item>
+        <item>+11 Fake</item>
+        <item>+88 Indonesia</item>
+        <item>+44 japan</item>
+        <item>+77 London</item>
+        <item>+92 sriLanka</item>
+    </string-array>
+</resources>
